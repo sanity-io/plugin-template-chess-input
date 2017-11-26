@@ -1,0 +1,28 @@
+{
+  "name": "plugin-template-chess-input",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Plugin template for a studio chess-input",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/plugin-template-chess-input.git"
+  },
+  "keywords": [],
+  "author": "Sanity.io <hello@sanity.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanity-io/plugin-template-chess-input/issues"
+  },
+  "homepage": "https://github.com/sanity-io/plugin-template-chess-input#readme",
+  "peerDependencies": {
+    "react": ">=15.0.0"
+  },
+  "sanityTemplate": {
+    "suggestedName": "my-chess-input",
+    "requiresConfig": false,
+    "minimumCliVersion": "0.122.3",
+    "dependencies": {
+      "react-chess": "^1.1.0"
+    }
+  }
+}

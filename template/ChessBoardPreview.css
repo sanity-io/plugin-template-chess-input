@@ -1,0 +1,21 @@
+.container {
+  margin: 0 10px;
+}
+
+.container:after,
+.container:before {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.board {
+  min-width: 15vmin;
+  max-width: 250px;
+  margin-right: 10px;
+  float: left;
+}
+
+.title {
+  margin: 0;
+}
