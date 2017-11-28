@@ -20,7 +20,8 @@
   "sanityTemplate": {
     "suggestedName": "my-chess-input",
     "requiresConfig": false,
-    "minimumCliVersion": "0.122.3",
+    "minimumCliVersion": "0.122.0",
+    "minimumBaseVersion": "0.122.3",
     "dependencies": {
       "react-chess": "^1.1.0"
     }
