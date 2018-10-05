@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import {FormBuilderInput, PatchEvent, patches} from 'part:@sanity/form-builder'
-import FormField from 'part:@sanity/components/formfields/default'
 import ConfirmDialog from 'part:@sanity/components/dialogs/confirm'
 import Fieldset from 'part:@sanity/components/fieldsets/default'
 import Button from 'part:@sanity/components/buttons/default'
